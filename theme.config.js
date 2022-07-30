@@ -1,18 +1,21 @@
 import Play from '@geist-ui/icons/play'
 
 const nextraThemeConfig = {
-  projectLink: 'https://github.com/shuding/nextra', // GitHub link in the navbar
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master', // base URL for the docs repository
-  titleSuffix: ' - gettingstarted.tech',
+  projectLink: 'https://github.com/nerioslamaj/gettingstarted.tech', // GitHub link in the navbar
+  docsRepositoryBase: 'https://github.com/nerioslamaj/gettingstarted.tech/blob/main', // base URL for the docs repository
+  titleSuffix: ' - gettingstarted',
   nextLinks: true,
   prevLinks: true,
   search: true,
   customSearch: null, // customizable, you can use algolia for example
   darkMode: true,
   footer: true,
-  footerText: `MIT ${new Date().getFullYear()} © Nerios Lamaj.`,
+  footerText: `MIT ${new Date().getFullYear()} © gettingstarted.`,
   footerEditLink: `Edit this page on GitHub`,
   projectLinkIcon: <Play />,
+  feedbackLink: () => {
+    return ("Question? Give us feedback →");
+  },
   logo: (
     <>
       <svg>...</svg>
