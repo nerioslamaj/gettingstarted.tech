@@ -1,4 +1,5 @@
 {
-  "index": "Introduction",
+  "index": "Algorithms Guide",
+  "space-time-complexity": "Space Time Complexity",
   "sorting-algorithms": "Sorting"
 }
