@@ -9,7 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@geist-ui/core": "^2.3.8",
+    "@geist-ui/icons": "^1.0.2",
     "next": "12.2.3",
+    "nextra": "^1.1.0",
+    "nextra-theme-docs": "^1.2.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -19,6 +23,7 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.3",
+    "eslint-plugin-mdx": "^2.0.2",
     "typescript": "4.7.4"
   }
 }
