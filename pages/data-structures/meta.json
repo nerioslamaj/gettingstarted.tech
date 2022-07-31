@@ -1,4 +1,8 @@
 {
   "index": "Data Structures Guide",
-  "lists": "Lists"
+  "lists": "Lists",
+  "stacks-and-queues": "Stacks and Queues",
+  "hash-tables": "Hash Tables",
+  "trees-and-heaps": "Trees and Heaps",
+  "graphs": "Graphs"
 }
